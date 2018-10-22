@@ -1,3 +1,0 @@
-fakefile
-CHANGE
-morechange
