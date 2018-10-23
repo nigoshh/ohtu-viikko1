@@ -2,3 +2,7 @@
 /build/
 /.nb-gradle/
 .gradle
+/RiippuvuuksienInjektointi1/.nb-gradle/
+/NhlStatistics1/.nb-gradle/
+/RiippuvuuksienInjektointi1/build/
+/NhlStatistics1/build/
