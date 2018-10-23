@@ -123,7 +123,7 @@ public class VarastoTest {
         varasto = new Varasto(-5);
         assertEquals(0, varasto.getTilavuus(), vertailuTarkkuus);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
-        varasto = new Varasto(-5, -9);
+        varasto = new Varasto(-5, 3);
         assertEquals(0, varasto.getTilavuus(), vertailuTarkkuus);
         assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
