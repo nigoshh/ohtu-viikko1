@@ -49,7 +49,7 @@ public class Varasto {
 
     // --- asettavat aksessorit eli setterit: ---
     public void lisaaVarastoon(double maara) {
-        if (maara < 0) // virhetilanteessa voidaan tehdä 
+        if (maara < 0) // virhetilanteessa voidaan tehdä
         {
             return;       // tällainen pikapoistuminenkin!
         }
@@ -62,7 +62,7 @@ public class Varasto {
     }
 
     public double otaVarastosta(double maara) {
-        if (maara < 0) // virhetilanteessa voidaan tehdä 
+        if (maara < 0) // virhetilanteessa voidaan tehdä
         {
             return 0.0;   // tällainen pikapoistuminenkin!
         }
@@ -77,6 +77,7 @@ public class Varasto {
     }
 
     // --- Merkkijonoesitys Varasto-oliolle: ----
+    @Override
     public String toString() {
         return ("saldo = " + saldo + ", vielä tilaa " + paljonkoMahtuu());
     }
