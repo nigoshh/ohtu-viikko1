@@ -1,3 +1,3 @@
 # ohtu-viikko1
 
-kokeillaan merge
+[![Build Status](https://travis-ci.com/nigoshh/ohtu-viikko1.svg?branch=master)](https://travis-ci.com/nigoshh/ohtu-viikko1)
